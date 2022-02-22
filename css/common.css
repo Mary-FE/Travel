@@ -1,0 +1,71 @@
+* { box-sizing: border-box; }
+
+body {
+    font: 400 16px/1.4 var(--font-family__main);
+}
+
+/* ============================================ */
+/* Buttons */
+
+.button {
+    width: 100%;
+    max-width: 300px;
+    color: var(--text-color__light);
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    transition: var(--common-animation);
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--text-color__hover);
+}
+
+._gradient {
+    padding: 15px 30px;
+    
+    border-radius: 50px;
+    text-transform: lowercase;
+}
+
+._submit {
+    padding: 10px 15px;
+    background-color: var(--text-color__title);
+}
+
+._transparent {
+    padding: 15px 30px;
+
+    border: 2px solid var(--text-color__light);
+}
+
+/* =========================================== */
+/* Input */
+input {
+    background-color: var(--text-color__hover);
+    border-radius: 50px;
+}
+
+/* =========================================== */
+/* Icons */
+.icon {position: relative;}
+.icon:before {font-family: var(--font-family__icon);}
+
+._location:before {content: var(--icon-location); }
+._facebook:before {content: var(--icon-facebook); }
+._twitter:before {content: var(--icon-teitter); }
+._instagram:before {content: var(--icon-instagram); }
+._youtube:before {content: var(--icon-youtube); }
+._linkedin:before {content: var(--icon-linkedin); }
+._google:before {content: var(--icon-google); }
+._earth:before {content: var(--icon-earth); }
+._map:before {content: var(--icon-map); }
+
+/* ==================================================== */
+.box {
+    max-width: var(--layout__width);
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/* ========================================================= */
