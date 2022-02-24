@@ -1,0 +1,53 @@
+.countries {
+    background-color: var(--background-color__block);
+}
+
+/* Title + item ===================================*/
+.countries .title {
+    margin: 20px;
+    font-size: 20px;
+    color: var(--text-color__title);
+}
+
+.countries .title, .item {
+    text-align: center;
+}
+
+.countries .item {
+    margin-bottom: 70px;
+    font: Italic 14px var(--font-family__main);
+    color: var(--text-color__item);
+}
+/* ================================================ */
+
+.countries img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.countries .place {
+    margin: -5px 0 20px;
+    padding: 15px;
+    font: Italic 15px var(--font-family__main);
+    background-color: var(--text-color__light);
+}
+
+.countries .icon:before {
+    margin-right: 5px;
+    font: Normal 20px var(--font-family__icon);
+    color: var(--color--icon);
+}
+
+@media screen and (min-width: 425px) {
+    .countries .title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .countries .catalog {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
