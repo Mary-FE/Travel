@@ -1,0 +1,61 @@
+.header {
+    position: relative;
+}
+
+.header .box {
+    position: absolute;
+    top: 0;
+}
+
+.header img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Icon menu ==========================*/
+.header ._toggle-menu {
+    color: var(--text-color__light);
+    font-size: 20px;
+}
+
+.header ._toggle-menu:hover {
+    color: var(--text-color__hover);
+}
+
+.header .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* ==================================== */
+.header .navigation {
+    text-transform: uppercase;
+}
+
+.header .logo, .text {
+    color: var(--text-color__light);
+}
+
+/* Information============================= */
+.information {
+    position: absolute;
+    top: 140px; 
+    left: 25px;
+}
+
+.information .title {
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.information .text {
+    max-width: 270px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header nav {
+        display: none;
+    }
+}

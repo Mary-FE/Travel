@@ -1,0 +1,30 @@
+.header .logo {
+    font-size: 30px;
+}
+
+.header .navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header .navigation a {
+    margin-left: 15px;
+
+    font: 700 14px var(--font-family__main);
+    color: var(--text-color__light);
+    letter-spacing: 2.2px;
+}
+
+.header .navigation a:hover {
+    color: var(--text-color__hover);
+}
+
+.information .title {
+    font-size: 80px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header .icon {
+        display: none;
+    }
+}

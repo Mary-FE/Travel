@@ -1,0 +1,15 @@
+.header .logo {
+    font-size: 25px;
+}
+
+.information {
+    top: 100px;
+}
+
+.information .text {
+    max-width: 350px;
+}
+
+.information .title {
+    font: 400 65px var(--font-family__main);
+}

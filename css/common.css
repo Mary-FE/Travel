@@ -8,8 +8,6 @@ body {
 /* Buttons */
 
 .button {
-    width: 100%;
-    max-width: 300px;
     color: var(--text-color__light);
     text-decoration: none;
     letter-spacing: 1px;
@@ -23,9 +21,11 @@ body {
 }
 
 ._gradient {
-    padding: 15px 30px;
+    padding: 20px 30px;
     
-    border-radius: 50px;
+    background-image: var(--background__image);
+    border-radius: 10px;
+    border: none;
     text-transform: lowercase;
 }
 
@@ -52,6 +52,7 @@ input {
 .icon {position: relative;}
 .icon:before {font-family: var(--font-family__icon);}
 
+._toggle-menu:before {content: var(--icon-menu); }
 ._location:before {content: var(--icon-location); }
 ._facebook:before {content: var(--icon-facebook); }
 ._twitter:before {content: var(--icon-teitter); }
@@ -64,8 +65,8 @@ input {
 
 /* ==================================================== */
 .box {
+    width: 100%;
     max-width: var(--layout__width);
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 20px 30px;
 }
-/* ========================================================= */

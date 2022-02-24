@@ -10,23 +10,37 @@
     <link rel="stylesheet preload" href="css/lib/normalize.css" />
     <link rel="stylesheet" href="css/breakpoint/mobile.css" />
     <link rel="stylesheet" href="css/breakpoint/tablet.css" media="screen and (min-width: 768px)" />
-    <link rel="stylesheet preload" href="css/font.css" media="screen and (min-width: 1024px)" />
+    <link rel="stylesheet preload" href="css/breakpoint/desktop.css" media="screen and (min-width: 1024px)" />
     <title>Travel</title>
 </head>
 <body>
     
     <!-- This is header -->
     <header class="header">
-        <div class="box">
-            <a class="logo">Travel.co</a>
-            <div class="navigation">
-                <div>Home</div>
-                <div>Blog</div>
-                <div>Contacts</div>
-                <div>Page 1</div>
-                <div>Page 3</div>
+        <img src="img/boat.jpeg" alt="a boat in the ocean" loading="lazy" />
+        <section class="box">
+            <div class="nav-menu">
+                <a class="logo">Travel.co</a>
+                <div class="navigation">
+                    <a href="#" class="icon _toggle-menu"></a>
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Page 1</a>
+                        <a href="#">Page 3</a>
+                    </nav>
+                </div>
             </div>
-        </div>
+        </section>
     </header>
+    <section class="information">
+        <h1 class="title">Travel</h1>
+        <div class="text">
+            Here are my favorite travel and adventure quotes, paired with
+            images from my journeys around the world.
+        </div>
+        <button class="button _gradient">read more</button>
+    </section>
 </body>
 </html>
