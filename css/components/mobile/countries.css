@@ -35,7 +35,7 @@
 .countries .icon:before {
     margin-right: 5px;
     font: Normal 20px var(--font-family__icon);
-    color: var(--color--icon);
+    color: var(--color__icon);
 }
 
 @media screen and (min-width: 425px) {

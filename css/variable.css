@@ -4,9 +4,11 @@
     --text-color__hover: #e6e6e6;
     --text-color__title: #478ac9;
     --text-color__item: #4c7397;
+    --text-color__link: #387cbd;
 
-    --color--icon: #999;
+    --color__icon: #999;
 
+    --background-color__input: #f2f2f2;
     --background-color__block: #e9f2fa;
 
     --background__image: linear-gradient(135deg, #478ac9, #24d9ea);

@@ -1,0 +1,41 @@
+.browse-tours .box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.browse-tours .activity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.browse-tours .title {
+    max-width: 150px;
+}
+
+.browse-tours .news {
+    font-size: 20px;
+}
+
+.browse-tours .email {
+    width: 45%;
+    margin-right: 5px;
+}
+
+.browse-tours .button {
+    width: 50%;
+    padding: 10px 0;
+}
+
+/* Types ======================= */
+.browse-tours .types a {
+    max-width: none;
+}
+
+.browse-tours .types .city {
+    margin-bottom: 15px;
+}
+/* ============================= */
+
+.browse-tours .send {
+    margin: 20px 0;
+}

@@ -1,0 +1,20 @@
+.browse-tours .title {
+    max-width: none;
+    font-size: 25px;
+}
+
+.browse-tours .news {
+    font-size: 25px;
+}
+
+.browse-tours .activity {
+    font-size: 20px;
+}
+
+.browse-tours .email {
+    width: 55%;
+}
+
+.browse-tours .button {
+    width: 35%;
+}

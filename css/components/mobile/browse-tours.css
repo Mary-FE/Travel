@@ -1,0 +1,103 @@
+.browse-tours .box {
+    padding: 60px 30px;
+}
+
+.browse-tours .title {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.browse-tours .activity {
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* Types ================================ */
+.browse-tours .types a {
+    display: block;
+    max-width: 150px;
+    margin-bottom: 15px;
+    
+    font-weight: 500;
+    color: var(--text-color__title);
+}
+
+.browse-tours .types a:hover {
+    color: var(--text-color__link);
+}
+
+.browse-tours .types .city {
+    margin-bottom: 40px;
+}
+/* ========================================= */
+
+.browse-tours .news {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.browse-tours .subscribe {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: var(--color__icon);
+}
+
+/* Input + button =========================== */
+.browse-tours .email {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+
+    border: none;
+    outline: none;
+}
+
+.browse-tours .email::placeholder {
+    color: var(--color__icon);
+    background-color: var(--background-color__input);
+}
+
+.browse-tours .email::-webkit-input-placeholder{
+    color: var(--color__icon);
+    background-color: var(--background-color__input);
+}
+
+.browse-tours .email:-moz-placeholder{
+    color: var(--color__icon);
+    background-color: var(--background-color__input);
+}
+
+.browse-tours .button {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+
+    
+    font-size: 16px;
+    text-transform: none;
+    border: none;
+    background-color: var(--text-color__title);
+}
+
+.browse-tours .button:hover {
+    background-color: var(--text-color__link);
+}
+/* =============================================== */
+
+.browse-tours .links a {
+    font-size: 22px;
+    color: var(--color__icon);
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 420px) {
+    .browse-tours .activity {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .browse-tours .send {
+        width: 300px;
+    }
+}

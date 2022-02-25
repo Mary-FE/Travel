@@ -44,7 +44,7 @@ body {
 /* Input */
 input {
     background-color: var(--text-color__hover);
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 /* =========================================== */
@@ -55,7 +55,7 @@ input {
 ._toggle-menu:before {content: var(--icon-menu); }
 ._location:before {content: var(--icon-location); }
 ._facebook:before {content: var(--icon-facebook); }
-._twitter:before {content: var(--icon-teitter); }
+._twitter:before {content: var(--icon-twitter); }
 ._instagram:before {content: var(--icon-instagram); }
 ._youtube:before {content: var(--icon-youtube); }
 ._linkedin:before {content: var(--icon-linkedin); }
