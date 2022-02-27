@@ -1,0 +1,23 @@
+.discount .box {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: end;
+}
+
+.discount .image-bg {
+    position: absolute;
+    height: 450px;
+    object-fit: cover;
+}
+
+.discount .title {
+    padding: 40px 0;
+    font-size: 25px;
+    color: var(--text-color__light);
+}
+
+.discount .text {
+    padding-bottom: 40px;
+    font: 15px/1.6 var(--font-family__main);
+}

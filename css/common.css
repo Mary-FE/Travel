@@ -36,10 +36,14 @@ body {
 
 ._transparent {
     padding: 15px 30px;
-
+    
+    background-color: transparent;
     border: 2px solid var(--text-color__light);
 }
 
+._transparent:hover {
+    border-color: var(--text-color__hover);
+}
 /* =========================================== */
 /* Input */
 input {
