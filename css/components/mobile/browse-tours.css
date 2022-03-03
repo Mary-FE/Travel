@@ -55,17 +55,14 @@
 
 .browse-tours .email::placeholder {
     color: var(--color__icon);
-    background-color: var(--background-color__input);
 }
 
 .browse-tours .email::-webkit-input-placeholder{
     color: var(--color__icon);
-    background-color: var(--background-color__input);
 }
 
 .browse-tours .email:-moz-placeholder{
     color: var(--color__icon);
-    background-color: var(--background-color__input);
 }
 
 .browse-tours .button {

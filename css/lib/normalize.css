@@ -29,7 +29,6 @@ p {
 h1 {
     margin: 0;
     font: 700 35px var(--font-family__main);
-    color: var(--text-color__light);
     text-shadow: 5px 0px var(--color__hover);
 }
 

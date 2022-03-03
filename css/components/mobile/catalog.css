@@ -1,0 +1,45 @@
+.catalog {
+    background-color: var(--background-color__block);
+}
+
+.catalog .box {
+    text-align: center;
+}
+
+.catalog .title {
+    margin-bottom: 20px;
+    font: 400 30px var(--font-family__main);
+}
+
+.catalog .text {
+    margin-bottom: 50px;
+    font-style: italic;
+    color: var(--text-color__dark);
+}
+
+.catalog .wrapper .swing {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Group (white squares) ========================*/
+.catalog .group {
+    background-color: var(--text-color__light);
+    padding: 30px 10px;
+    margin: 20px 0;
+}
+
+.catalog .wrapper .icon {
+    font-size: 30px;
+    color: var(--text-color__title);
+}
+
+.catalog .item {
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.catalog .characteristic {
+    font: Italic 13px var(--font-family__main);
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.discount .title {
+    font-size: 35px;
+}
+
+.discount .text {
+    max-width: 465px;
+    margin-left: auto;
+    font-size: 17px;
+}

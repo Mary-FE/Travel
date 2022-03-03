@@ -8,6 +8,7 @@
 }
 
 .header img {
+    display: block;
     height: 450px;
     object-fit: cover;
 }
@@ -46,6 +47,7 @@
 .information .title {
     margin: 30px 0;
     font-weight: 400;
+    color: var(--text-color__light);
 }
 
 .information .text {

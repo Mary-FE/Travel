@@ -1,0 +1,12 @@
+.catalog .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.catalog .wrapper .swing {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    max-height: 100%;
+    height: 100%;
+}
